@@ -1,0 +1,38 @@
+section {
+    border: 10px solid red;
+    width: 300px;
+    position: relative;
+    height: 500px;
+  }
+  
+  section > div {
+    position: absolute;
+    background-color: gold;
+    width: 50%;
+    height: 50%;
+  }
+  
+  section > div:nth-child(1) {
+    background-color: pink;
+    top:20%;
+    left:20%;
+  }
+  
+  section > div:nth-child(2) {
+    background-color: blue;
+    top:25%;
+    left:25%;
+  }
+  
+  section > div:nth-child(3) {
+    background-color: green;
+      top:30%;
+    left:30%;
+  }
+  
+  section > div:nth-child(4) {
+    background-color: grey;
+      top:35%;
+    left:35%;
+  }
+  

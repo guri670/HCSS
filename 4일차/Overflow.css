@@ -1,0 +1,13 @@
+div {
+    padding:10px;
+    font-size:2rem;
+    width:1000px;
+    background-color:red;
+    white-space:nowrap;
+  }
+
+  /* white-space : nowrap (줄바꾸기 금지) */
+  /* overflow : auto(글이 짧으면 스크롤 없음, 길면 생성) */
+  /* overflow : scroll(스크롤 생성) */
+  /* text-overflow : ellipsis(말 줄임 효과 ...) */
+  /* word-brak: break-all (어절이 유지되지않고 끊어져서 줄바꿈)*/
