@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FlexPractice.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar flex flex-jc-sa">
+        <a href="https://github.com/" target="_blank" class="logo"><i class="fa-brands fa-github"></i></a>
+        <nav class="menu-box-1">
+            <ul class="flex height-100p"> <!--플렉스 컨테이너-->
+                <!--플랙스는 자신에게는 영향이 없지만 자식한테 영향을 미친다.-->
+                <li class=""><a class="height-100p flex flex-ai-c" href="#">1차 메뉴박스 아이템1</a></li> <!--플렉스 아이템-->
+                <li class=""><a class="height-100p flex flex-ai-c" href="#">1차 메뉴박스 아이템2</a></li>
+                <li class=""><a class="height-100p flex flex-ai-c" href="#">1차 메뉴박스 아이템3</a></li>
+                <li class=""><a class="height-100p flex flex-ai-c" href="#">1차 메뉴박스 아이템4</a></li>
+            <!-- flex는 자식한테만 영향을 주기 때문에 strach가 기본 값 -->
+             <!-- nav.menu-box-1>ul.flex.height-100p>li*4>a.flex.flex-ai-c.height-100p[herf="#"{1차 메뉴 아이템$}] -->
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
