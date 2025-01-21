@@ -1,0 +1,53 @@
+/* 노멀라이즈 */
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit
+}
+
+/* .font-size-0 {
+    font-size: 0;
+}
+
+.font-size-0 > * {
+    font-size: 1rem;
+} */
+
+.cell {
+    float:left;
+}
+
+.row ::after {
+    content: "";
+    clear:both;
+    display: block;
+}
+
+.menu-box-1 {
+    border: 10px solid red;
+    margin-top: 50px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-box-1 > ul {
+    background-color: pink;
+    display:inline-block
+}
+
+.menu-box-1 > ul > li {
+    background-color: gold ;
+    display: inline-block;
+}
+
+.menu-box-1 > ul > li > a {
+    display: block;
+    width: calc(980px/7);
+}
