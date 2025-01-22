@@ -1,8 +1,22 @@
+/* 노멀라이즈 */
 body, ul, li {
-    
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
     color:inherit;
+}
+/* 커스텀 */
+.side-bar  {
+
+}
+
+/* 사이드바 메뉴 */
+
+.side-bar > .menu-box-1 ul > li > a {
+    display: block;
+    font-weight: bold;
 }

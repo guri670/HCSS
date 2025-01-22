@@ -23,7 +23,7 @@ a {
     float:left;
 }
 
-.row ::after {
+.row::after {
     content: "";
     clear:both;
     display: block;
@@ -44,10 +44,10 @@ a {
 
 .menu-box-1 > ul > li {
     background-color: gold ;
-    display: inline-block;
+    width:calc(100%/7);
 }
 
 .menu-box-1 > ul > li > a {
     display: block;
-    width: calc(980px/7);
+    
 }
